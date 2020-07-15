@@ -17,7 +17,7 @@ if (!obj.message){
     obj.message = "";
 }
 if (!obj.ext){
-    obj.ext =={"need_xs_ad":false,"xs_strategy_index":10,"need_backup_ad":false,"remaining_new_user_protect_time":-1}";
+    obj.ext ="{\"need_xs_ad\":false,\"xs_strategy_index\":1,\"need_backup_ad\":false,\"remaining_new_user_protect_time\":-1}";
 }
          
 
