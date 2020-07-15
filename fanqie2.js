@@ -12,9 +12,6 @@
 */
 var obj = JSON.parse($response.body);
 obj.data= {
-        "interactivation_count":"0",
-        "notification_count":"0",
-        "total":"0"
-    };
-obj.message = "success"
+};
+obj.message = "success";
 $done({body:JSON.stringify(obj)});
