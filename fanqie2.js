@@ -16,4 +16,5 @@ obj.data= {
         "notification_count":"0",
         "total":"0"
     };
+obj.message = "success"
 $done({body:JSON.stringify(obj)});
