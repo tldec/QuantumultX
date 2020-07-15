@@ -11,6 +11,6 @@
 */
 var obj = JSON.parse($response.body);
 obj.ad_item = null;
-obj.ext ={\"need_xs_ad\":false,\"xs_strategy_index\":10,\"need_backup_ad\":false,\"remaining_new_user_protect_time\":-1}
+obj.ext ="{\"need_xs_ad\":false,\"xs_strategy_index\":10,\"need_backup_ad\":false,\"remaining_new_user_protect_time\":-1}"
 
 $done({body:JSON.stringify(obj)});
